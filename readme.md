@@ -12,7 +12,7 @@ to work with the Docker host.
 `docker run -i -t -v /var/run/docker.sock:/docker.sock 42wim/netdot_deploy setup`
 
 It will fetch all the necessary images (could take a while) and start up 3 containers (netdot_init/netdot_apache/netdot_db)
-You can then connect on  http://<docker-host-ip>:8888/netdot/ and login with admin/admin
+You can then connect on  http://\<docker-host-ip\>:8888/netdot/ and login with admin/admin
 
 ## Remove Netdot Stack 
 To remove the Netdot Stack containers run:
