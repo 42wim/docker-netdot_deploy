@@ -29,8 +29,8 @@ You can also run updatedevices.pl as such:
 
 # Sources
 The dockerfiles for the different containers can be found on:
-https://github.com/42wim/docker-netdot
-https://github.com/42wim/docker-netdot_db
-https://github.com/42wim/docker-netdot_deploy
+* https://github.com/42wim/docker-netdot
+* https://github.com/42wim/docker-netdot_db
+* https://github.com/42wim/docker-netdot_deploy
 
 They can be used to rebuild your containers based on latest git.
