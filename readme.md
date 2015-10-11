@@ -25,7 +25,7 @@ To remove the images (except netdot_deploy) run:
 ## Run updatedevices.pl
 You can also run updatedevices.pl as such:
 
-`docker run -rm -name netdot_update -link netdot_db:db centos/netdot /usr/local/netdot/bin/updatedevices.pl –H switch-ip -I`
+`docker run -rm -name netdot_update -link netdot_db:db 42wim/netdot /usr/local/netdot/bin/updatedevices.pl -HI switch-ip`
 
 # Sources
 The dockerfiles for the different containers can be found on:
